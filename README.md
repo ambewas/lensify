@@ -17,6 +17,8 @@ run tests: `npm test`
 # How to use
 
 ```js
+import lensify from 'lensify';
+
 const initialState = {
 	playerMoves: 0,
 	totalScore: 100,
@@ -25,7 +27,7 @@ const initialState = {
 	},
 };
 
-const stateL = makeLenses(initialState, lensProp);
+const stateL = lensify(initialState, lensProp);
 
 ```
 
