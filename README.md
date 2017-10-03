@@ -27,7 +27,7 @@ const initialState = {
 	},
 };
 
-const stateL = lensify(initialState, lensProp);
+const stateL = lensify(initialState);
 
 ```
 
