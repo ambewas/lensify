@@ -58,6 +58,6 @@
     "npm": ">= 3"
   },
   "dependencies": {
-    "ramda": "^0.23.0"
+    "ramda": "^0.25.0"
   }
 }
